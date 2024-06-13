@@ -74,7 +74,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    /*background-color: rgb(211, 172, 120);*/
+    
 }
 .contenedorFotoNos {
     padding: 80px 100px 250px 100px;
@@ -88,7 +88,7 @@
 .contenedorParrafo {
     width: 100%;
     margin-block: 1px;
-    /*background-color: red;*/
+    
 }
 .contenedorParrafoNos {
     width: 100%;
@@ -174,10 +174,14 @@
 
 }
 /***************Paige: Galería****************/
-/*.galeria {*/
-    height: 100vh;
 
-    /*background-image: url(../img/rutaAsfaltada2.jpg);
+.simple-linear {
+    background: linear-gradient(#02315ced, #bebfc4d2);
+}
+/*.galeria {
+    height: 100vh;
+    
+    background-image: url(../img/rutaAsfaltada2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -269,6 +273,7 @@
     width: auto;
 
 }*/
+
 
 
 /***************Paige: Contacto*******/
