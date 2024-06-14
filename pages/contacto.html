@@ -55,10 +55,12 @@
 
                 </div>
             </article>
+            
             <article class="datosArticle">
                 <h2 class="titulo">Esperamos tu consulta...</h2>
             <div>
-                <form>
+                <!-- Estructura de Form Flex -->
+                <!--<form>
                     <br>
                     <input type="text" maxlength="25" placeholder="Ingrese Nombre" required>
                     <br>
@@ -71,8 +73,21 @@
                     <br>
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Borrar">
-                   
-                </form>
+                </form>-->
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control bg-body-secondary" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Ingresar e-mail</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control bg-body-secondary" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Ingresar consulta</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-outline-dark mt-3">Enviar</button>
+                    
+                    
+                  </form>
             </div>
             </article>
         </section>
